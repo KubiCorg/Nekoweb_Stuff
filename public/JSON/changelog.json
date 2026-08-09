@@ -169,7 +169,7 @@
     },
     {
       "id": 10,
-      "date": 1786250901,
+      "date": 1786251352000,
       "cambios": [
         { "cambio": "Ajustes varios para sincronizar la página con GitHub (léase <a href='https://deploy.nekoweb.org/'>deploy2nekoweb</a>)"}
       ],
