@@ -166,6 +166,16 @@
         { "change": "More buttons have been added to the main page to link to other pages if you're interested in learning more.." },
         { "change": "<a href='https://www.cheese.com'>Cheese</a>" }
       ]
+    },
+    {
+      "id": 10,
+      "date": 1786250901,
+      "cambios": [
+        { "cambio": "Ajustes varios para sincronizar la página con GitHub (léase <a href='https://deploy.nekoweb.org/'>deploy2nekoweb</a>)"}
+      ],
+      "changes": [
+        { "change": "Made adjustments to sync the page with GitHub (read <a href='https://deploy.nekoweb.org/'>deploy2nekoweb</a>)" }
+      ]
     }
   ]
 }
