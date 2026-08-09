@@ -1,0 +1,23 @@
+{
+    "fileroute": "../../media/gallery/art/",
+	"files": [
+		{
+			"1": {
+				"filename": "gift1.png",
+				"description": ""
+			},
+			"2": {
+				"filename": "gift2.png",
+				"description": ""
+			},
+			"3": {
+				"filename": "gift3.png",
+				"description": ""
+			},
+			"4": {
+				"filename": "gift4.png",
+				"description": ""
+			}
+		}
+	]
+}

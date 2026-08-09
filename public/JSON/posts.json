@@ -1,0 +1,60 @@
+{
+    "posts": [
+        {
+            "id": "0",
+            "title_es": "Post - 1/1/26",
+            "title_en": "Post - 1/1/26",
+            "post_es": "Feliz año gente quien visite la pagina web esto es mas que todo una prueba de como son las funciones de la pagina web agradezco el apoyo de mi amiga faiddy por ayudarme literalmente a crear esta pagina web como un blog personal por ella la quiero musho :3",
+            "post_en": "Happy new year to everyone visiting the website. This is mostly a test of the website features. I really appreciate my friend Faiddy for helping me create this website as a personal blog. I love her a lot :3",
+            "link": "../../../../../../../../../../posts/post.html"
+        },
+        {
+            "id": "1",
+            "title_es": "Post - 3/1/26",
+            "title_en": "Post - 3/1/26",
+            "post_es": "Este post es para comprobar aun si funcionan correctamente las cosas del blog cualquier cosa tratare de arreglarlo como se debe correctamente aunque ahora son las... 2:17PM pero todo va perfecto y genial jsjsj",
+            "post_en": "This post is to check if blog things are still working correctly. If anything fails I will try to fix it properly. Right now it's... 2:17PM, but everything is going great haha.",
+            "link": "../../../../../../../../../../posts/post1.html"
+        },
+        {
+            "id": "2",
+            "title_es": "Post Pt2 - 3/1/26",
+            "title_en": "Post Pt2 - 3/1/26",
+            "post_es": "Bien parece que todo funciona correctamente porque ahora ya tengo todo lo basico sobre mi aunque solo falta colocar otros detalles mas esteticos con tal de que todo se vea bonito y ordenado :3",
+            "post_en": "Looks like everything works correctly now. I already have all the basic info about me, I just need to add more aesthetic details so everything looks nice and organized :3",
+            "link": "../../../../../../../../../../posts/post2.html"
+        },
+        {
+            "id": "3",
+            "title_es": "Post - 5/1/26",
+            "title_en": "Post - 5/1/26",
+            "post_es": "Finalmente arregle la parte de galeria ya que se me volvio un infierno en tener que arreglar todo sin que se me corrompiera de alguna u otra manera y ahora esta reparada y lista para utilizar jaja",
+            "post_en": "I finally fixed the gallery section. It became a nightmare to repair everything without breaking it, but now it is fixed and ready to use haha.",
+            "link": "../../../../../../../../../../posts/post3.html"
+        },
+        {
+            "id": "4",
+            "title_es": "Post - 7/1/26",
+            "title_en": "Post - 7/1/26",
+            "post_es": "Hey Hola gente han pasado 2 dias desde que no hablo por aqui jeje bueno quisiera decir que me siento mejor y mas motivado ahora, agregue el coso para el lenguaje pero eso no afecta a los post por el json ademas de mejorar el apartado de sociales que se notaba que estaba algo abandonado agregando mas links y colocando los correspondientes si se daron cuenta igual espero y tengan un buen... miercoles! ",
+            "post_en": "Hey everyone, it's been 2 days since I posted here. I feel better and more motivated now. I added the language toggle (but at that time it did not affect posts because of JSON), and I also improved the socials section with more proper links. Have a great... Wednesday!",
+            "link": "../../../../../../../../../../posts/post4.html"
+        },
+        {
+            "id": "5",
+            "title_es": "Post - 13/1/2026",
+            "title_en": "Post - 13/1/2026",
+            "post_es": "ohh the east",
+            "post_en": "ohh the east",
+            "link": "../../../../../../../../../../posts/post5.html"
+        },
+        {
+            "id": "6",
+            "title_es": "Post - 7/4/2026",
+            "title_en": "Post - 7/4/2026",
+            "post_es": "sinceramente este post es mas que todo mostrar como me siento yo todos los dias estoy cansado mentalmente de todo lo que me paso el mes pasado trate de ser amable con la gente pero nada funcionaba por culpa de gente la cual podia resolver los problemas en privado me han hecho perder amigos, me dañaron emocionalmente y me cerarron algunas amistades las cuales estaban en proceso de ser duraderas aunque digan que no es mi culpa igual siento eso no puedo aguantar en decir acaso... soy una mala persona...? son aquellas preguntas las cuales piensas si todo lo malo sale mal, soy un problema, quiero pensar que no queria hablar y caerle bien a la gente pero mi inmadurez causa que no pueda mejorar, cambiare y mejorare aunque signifique que me tenga que limitar en tener amistades que solo acabaran dañandome mas de lo que estoy muy internamente.",
+            "post_en": "Honestly this post is mostly to show how I feel. Every day I feel mentally tired because of everything that happened to me last month. I tried to be kind to people, but nothing worked because of people who could have solved issues in private. I lost friends, got emotionally hurt, and some friendships that were becoming long-term were closed. Even if people say it is not my fault, I still feel that way. I keep asking myself... am I a bad person? Those are the thoughts you get when everything goes wrong. I don't want to be a problem. I wanted to talk and get along with people, but my immaturity keeps me from improving. I will change and improve, even if it means limiting my friendships to avoid getting hurt even more.",
+            "link": "../../../../../../../../../../posts/post5.html"
+        }
+    ]
+}

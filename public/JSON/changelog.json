@@ -1,0 +1,171 @@
+{
+  "changelog": [
+    {
+      "id": 0,
+      "date": 1767326400000,
+      "cambios": [
+        { "cambio": "Se ha creado el sitio." },
+        { "cambio": "Todas las páginas creadas." },
+        { "cambio": "Estilo de la página creado." },
+        { "cambio": "Scripts creados." },
+        { "cambio": "Subido a Nekoweb con éxito." }
+      ],
+      "changes": [
+        { "change": "Site has been created." },
+        { "change": "All pages have been created." },
+        { "change": "Style of the page created." },
+        { "change": "Scripts created." },
+        { "change": "Uploaded to Nekoweb successfully." }
+      ]
+    },
+    {
+      "id": 1,
+      "date": 1767444432676,
+      "cambios": [
+        { "cambio": "Nueva entrada de changelog agregada." },
+        { "cambio": "Arreglo de mucho mas informacion sobre el blog :3" }
+      ],
+      "changes": [
+        { "change": "New changelog entry added." },
+        { "change": "Added much more information about the blog :3" }
+      ]
+    },
+    {
+      "id": 2,
+      "date": 1767444432676,
+      "cambios": [
+        { "cambio": "Nuevo Post publicado" },
+        { "cambio": "Pagina de recursos renombrada a Info adicional" },
+        { "cambio": "Nuevos datos e informacion añadida en las paginas" },
+        { "cambio": "LePhox archive fue renombrado a LePhox Hideout" }
+      ],
+      "changes": [
+        { "change": "New post published." },
+        { "change": "Resource page renamed to Additional info." },
+        { "change": "New facts and information to the pages." },
+        { "change": "LePhox archive renamed to LePhox Hideout." }
+      ]
+    },
+    {
+      "id": 3,
+      "date": 1767545315000,
+      "cambios": [
+        { "cambio": "Pequeños cambios hechos a <a href='../../../../../../../blog.html'>Publicaciones</a>." },
+        { "cambio": "Reajustes minúsculos en algunos Scripts." },
+        { "cambio": "<a href='../../../../../../../linktree.html'>Sociales</a> ya cuenta con enlaces." },
+        { "cambio": "Ahora se cuenta con un Widget de comentarios. (Cortesía de <a href='https://virtualobserver.moe/'>Ayano</a>)" },
+        { "cambio": "Reajustes minúsculos en algunos Scripts." }
+      ],
+      "changes": [
+        { "change": "Minor changes made to <a href='../../../../../../../blog.html'>Publicaciones</a>." },
+        { "change": "Minor adjustments in some Scripts." },
+        { "change": "<a href='../../../../../../../linktree.html'>Sociales</a> already has links." },
+        { "change": "New comment widget. (Courtesy of <a href='https://virtualobserver.moe/'>Ayano</a>)" }
+      ]
+    },
+    {
+      "id": 4,
+      "date": 1767598679294,
+      "cambios": [
+        { "cambio": "Reajustes minúsculos en algunos Scripts." },
+        { "cambio": "<a href='../../../../../../../gallery.html'>Galeria</a> ya cuenta con imagenes todas alojadas por catbox.moe ." },
+        { "cambio": "Mejora de la interfaz de la parte de galeria debido a problemas" }
+      ],
+      "changes": [
+        { "change": "Minor adjustments in some Scripts." },
+        { "change": "<a href='../../../../../../../gallery.html'>Galeria</a> already has all images hosted by catbox.moe." },
+        { "change": "Improved gallery interface due to problems." }
+      ]
+    },
+    {
+      "id": 5,
+      "date": 1767773189268,
+      "cambios": [
+        { "cambio": "Boton de traduccion agregado a la pagina de manera global (aunque los post, changelog y Comentarios NO se podran traducir al ingles) search for translate." },
+        { "cambio": "<a href='../../../../../../../linktree.html'>Sociales</a> fue renovada y mejorada incluyendo los links correspondientes y cambios correspondientes a su interfaz." },
+        { "cambio": "La descripcion de la pagina principal fue aumentado para mostrar mas a lo que la pagina web sera dedicada y para que existe lulz." },
+        { "cambio": "La mawile conquistara el mundo (xd)" }
+      ],
+      "changes": [
+        { "change": "New translate button added to the global page (who's gonna tell the other guy...)" },
+        { "change": "<a href='../../../../../../../linktree.html'>Sociales</a> was renewed and improved, including the links and interface changes" },
+        { "change": "Description of the main page was increased to show more about the website and why it exists." },
+        { "change": "Mawile will conquer the world (xd)" }
+      ]
+    },
+    {
+      "id": 6,
+      "date": 1768961016000,
+      "cambios": [
+        { "cambio": "Agregado una pestaña en <a href='../../../../../../../linktree.html'>Sociales</a> para poder hacerme un dibujo de manera anonima (dibujos que sean para molestar o burla bye bye)" },
+        { "cambio": "<a href='../../../../../../../gallery.html'>Galeria</a> se agrega la pagina para ver los FanArts que le dedican a mi raton o otros oc que tengo alli guardados xd" }
+      ],
+      "changes": [
+        { "change": "New tab in <a href='../../../../../../../linktree.html'>Sociales</a> for anonymous drawing." },
+        { "change": "New tab in <a href='../../../../../../../gallery.html'>Galeria</a> for FanArts." }
+      ]
+    },
+    {
+      "id": 7,
+      "date": 1770022384360,
+      "cambios": [
+        { "cambio": "Agregado una pestaña en <a href='../../../../../../../history.html'>Historia</a> para mostrar mi lore de mi sona osea la rata xd" },
+        { "cambio": "Se mejoro la interfaz de la pagina web haciendola mas llamativa y bonita ademas de presentable :3" },
+        { "cambio": "Se agrego un boton para que puedan seguir mi pagina de nekoweb" },
+        { "cambio": "Se añadio el estado si estoy online o offline de la pagina de nekoweb (en beta)" }
+      ],
+      "changes": [
+        { "change": "New tab in <a href='../../../../../../../history.html'>Historia</a> to showcase my sona's lore, which is the rat xd." },
+        { "change": "Improved interface of the website, making it more presentable :3." },
+        { "change": "New button to follow me on nekoweb." },
+        { "change": "New status indicator for nekoweb (in beta)." }
+      ]
+    },
+    {
+      "id": 8,
+      "date": 1776690090959,
+      "cambios": [
+        { "cambio": "Se Mejoro la pagina web pareciendo mas a mi vision de mis gustos siendo al windows 95" },
+        { "cambio": "Se agregaron mas imagenes a la Galeria ademas de agregar un banner oficial adentro de la pagina hecho por <a href='https://bsky.app/profile/rinder-crates.bsky.social'>Rinder Crates</a>" },
+        { "cambio": "Se agrego un sitebox oficial para la pagina hecho por mi mejor amiga faya" },
+        { "cambio": "Se añadio el estado si ando online o no en neko web para mi mis estados de discord" },
+        { "cambio": "Se añadio el boton para seguirme en nekoweb (solo si tienes una cuenta aqui)" },
+        { "cambio": "Se añadio un mejor sistema para mandar mensajes por medio del atabook adentro de la pagina" },
+        { "cambio": "Se añadio la ventana de jspaint para los que quieran dibujar por aqui se accede por la pargina de inicio" },
+        { "cambio": "Se añadio la ventana para ver cuantos dias falta para mi cumpleaños" }
+      ],
+      "changes": [
+        { "change": "The website was improved to match my vision of my tastes, being a windows 95." },
+        { "change": "More images added to the gallery, also adding an official banner made by (yours truly) <a href='https://bsky.app/profile/rinder-crates.bsky.social'>Rinder Crates</a>" },
+        { "change": "New sitebox added by my best friend's website, faya." },
+        { "change": "Added a status indicator to show whether i'm online or not for my discord statuses." },
+        { "change": "New button to follow me on nekoweb (only if you have an account)." },
+        { "change": "Implemented a better system to send messages via atabook within the website." },
+        { "change": "Added jspaint window for those who want to draw on the website from the home page." },
+        { "change": "Added a countdown timer for my birthday." }
+      ]
+    },
+        {
+      "id": 9,
+      "date": 1777468434031,
+      "cambios": [
+        { "cambio": "Se se agrego el texto de fetiches en la pagina de advertencia (por el contenido galeria de la pagina web)"},
+        { "cambio": "Se agrego traduccion al ingles para los archivos json haciendo que la pagina entera se pueda considerar totalmente en ingles y español"},
+        { "cambio": "Se cambio la seccion de galeria ahora solo apareciendo 4 ventanas para dibujos nsfw y sfw para keeby y la nueva integrante luma respectivamente"},
+        { "cambio": "Se agrego pequeñas descripciones a las imagenes en galeria para modo estetico y algunos contienen links que redirigen a las redes de los autores correspondientes"},
+        { "cambio": "Se arreglaron los links de la parte de <a href='../../../../../../../linktree.html'>linktree</a>" },
+        { "cambio": "Se añadio mas botones a otras paginas en la pagina principal para ver si le interesa saber mas" },
+        { "cambio": "<a href='https://www.cheese.com'>Cheese</a>" }
+      ],
+      "changes": [
+        { "change": "The text about fetishes was added to the warning page (due to the website's gallery content)." },
+        { "change": "English translation was added to the JSON files, making the entire page fully available in both English and Spanish." },
+        { "change": "The gallery section has been changed; now only four windows appear for NSFW and SFW drawings for Keeby and the new member Luma, respectively." },
+        { "change": "Short descriptions were added to the images in the gallery for aesthetic purposes, and some contain links that redirect to the respective authors' social media accounts." },
+        { "change": "The links in the <a href='../../../../../../../linktree.html'>linktree</a> section have been fixed." },
+        { "change": "More buttons have been added to the main page to link to other pages if you're interested in learning more.." },
+        { "change": "<a href='https://www.cheese.com'>Cheese</a>" }
+      ]
+    }
+  ]
+}

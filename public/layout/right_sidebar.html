@@ -1,0 +1,77 @@
+<div class="right_sidebar">
+    <div id="nekowebInfo" class="classicWindow">
+        <div class="howeverThatBarNames">
+            <label data-i18n-key="right.stats">Estadísticas</label>
+            <div class="upperButtons">
+                <button>_ </button>
+                <button class="noResizable">□</button>
+                <button>×</button>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <span data-stats-lang="es">Visitado:</span>
+                <span data-stats-lang="en" hidden>Visited:</span>
+                <span><!--# views --></span>
+            </li>
+            <li>
+                <span data-stats-lang="es">Seguidores:</span>
+                <span data-stats-lang="en" hidden>Followers:</span>
+                <span><!--# followers --></span>
+            </li>
+        </ul>
+    </div>
+    
+    <div id="atabookFrame" class="classicWindow">
+        <div class="howeverThatBarNames">
+            <label data-i18n-key="right.guestbook">Guestbook</label>
+            <div class="upperButtons">
+                <button>_ </button>
+                <button>□</button>
+                <button>×</button>
+            </div>
+        </div>
+        <iframe src="https://sezeik.atabook.org/"></iframe>
+    </div>
+    
+    <div id="birthdayCounter" class="classicWindow">
+        <div class="howeverThatBarNames">
+            <label data-i18n-key="right.birthday">Cumpleaños</label>
+            <div class="upperButtons">
+                <button>_ </button>
+                <button class="noResizable">□</button>
+                <button>×</button>
+            </div>
+        </div>
+        <div id="birthdayWindow">
+            <img src="../../../../../../../media/bdayCake.png"
+                alt="a birthday cake with a traffic cone"
+                class="image_frame"
+            width="64px" height="64px">
+            
+            <h2 id="countdown_label_es" data-birthday-lang="es">Quedan <span id="countdown_es">X</span> días.</h2>
+            <h2 id="countdown_label_en" data-birthday-lang="en" hidden><span id="countdown_en">X</span> days left.</h2>
+        </div>
+    </div>
+    
+    <div class="classicWindow">
+        <div class="howeverThatBarNames">
+            <label data-i18n-key="right.changes">Cambios</label>
+            <div class="upperButtons">
+                <button>_ </button>
+                <button>□</button>
+                <button>×</button>
+            </div>
+        </div>
+        <div class="changelogFrame">
+            <ul id="changelogListEs" data-changelog-lang="es">
+                <li>Cargando cambios...</li>
+            </ul>
+            <ul id="changelogListEn" data-changelog-lang="en" hidden>
+                <li>Loading changes...</li>
+            </ul>
+        </div>
+    </div>
+    
+<script src="../scripts/layout/right-sidebar.js" defer></script>
+</div>
