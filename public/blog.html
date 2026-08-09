@@ -1,0 +1,69 @@
+<!--# layout file="./layout/layout.html" -->
+ 
+
+<!-- Esta sección es para modificar el título de la PÁGINA ACTUAL. Si deseas cambiar el nombre de la página entera
+    Dirígete a layout/layout.html. -->
+<!--# block name="title" -->Blog<!--# endblock --> <!-- Título de la PÁGINA ACTUAL-->
+
+<!--# block name="content" -->
+
+<script src="scripts/pages/blog-main.js" defer></script>
+<!-- primer y último script al principio de una página sin insertar en el local_scripts. 🥀 -->
+
+<div class="classicWindow">
+    <div class="howeverThatBarNames">
+        <label>
+            <span data-i18n-key="blog.window.posts">Publicaciones</span>
+        </label>
+        <div class="upperButtons">
+            <button>_ </button>
+            <button>□</button>
+            <button>×</button>
+        </div>
+    </div>
+    <div class="windowInside">
+         <div id="postsWindow" style="display: flex; flex-flow: column nowrap;">
+             <p data-i18n-key="blog.loading">Cargando posts...</p>
+         </div>
+    </div>
+    
+</div>
+
+<div id="redZone" style="position: fixed; width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 20;
+  display: none;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 48px;
+  background: rgba(0, 0, 0, 0.25);">
+    <div id="postModal" class="classicWindow" style="width: min(720px, 92vw); max-height: 78vh;">
+        <div class="howeverThatBarNames">
+            <label id="postModalTitle" data-i18n-key="blog.modal.title">Post</label>
+            <div class="upperButtons">
+                <button class="noResizable">_ </button>
+                <button class="noResizable">□</button>
+                <button id="closePostModal" type="button">×</button>
+            </div>
+        </div>
+        <div class="windowInside" style="max-height: calc(78vh - 34px); overflow: auto;">
+            <div id="postModalBody" style="padding: 12px;">
+                <p>...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--# endblock -->
+
+<!--# block name="local_scripts" -->
+<!--
+    Esta sección es para incluir Scripts que se ejecutarán en la página actual (Galerias, reproductores, juegos).  
+    
+    De no ser necesarios scripts, dejar en blanco.
+-->
+<script src="scripts/pages/blog-local.js" defer></script>
+<!--# endblock -->

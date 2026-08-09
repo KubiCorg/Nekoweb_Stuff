@@ -1,0 +1,54 @@
+<!--# layout file="./layout/layout.html" -->
+
+<!--# block name="title" -->Historial de cambios<!--# endblock -->
+
+<!--# block name="content" -->
+<div class="classicWindow">
+    <div class="howeverThatBarNames">
+        <label>
+            <span data-i18n-key="changelog.page.window">Historial de cambios</span>
+        </label>
+        <div class="upperButtons">
+            <button>_ </button>
+            <button>□</button>
+            <button>×</button>
+        </div>
+    </div>
+    <div class="windowInside">
+        <div id="changelogWindow" style="display: flex; flex-flow: column nowrap;">
+            <p data-i18n-key="changelog.page.loading">Cargando historial...</p>
+        </div>
+    </div>
+</div>
+
+<div id="changelogRedZone" style="position: fixed; width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 20;
+  display: none;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 48px;
+  background: rgba(0, 0, 0, 0.25);">
+    <div id="changelogModal" class="classicWindow" style="width: min(720px, 92vw); max-height: 78vh;">
+        <div class="howeverThatBarNames">
+            <label id="changelogModalTitle" data-i18n-key="changelog.modal.title">Cambio</label>
+            <div class="upperButtons">
+                <button class="noResizable">_ </button>
+                <button class="noResizable">□</button>
+                <button id="closeChangelogModal" type="button">×</button>
+            </div>
+        </div>
+        <div class="windowInside" style="max-height: calc(78vh - 34px); overflow: auto;">
+            <div id="changelogModalBody" style="padding: 12px;">
+                <ul><li>...</li></ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--# endblock -->
+
+<!--# block name="local_scripts" -->
+<script src="scripts/pages/changelog-local.js" defer></script>
+<!--# endblock -->

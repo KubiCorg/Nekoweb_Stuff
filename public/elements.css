@@ -1,0 +1,30 @@
+/*!@nkb "domain":"sezeik.nekoweb.org","rss":"","overflow":false,"readonly":false */
+.site-box {
+    text-align: center;
+    background-image: url("https:///sezeik.nekoweb.org/sitebox.png");
+    background-repeat: no-repeat;
+    border-top: 2px solid white;
+    border-right: 2px solid #676767;
+    border-bottom: 3px solid #404040;
+    border-left: 2px solid white;
+    cursor: url("https:///sezeik.nekoweb.org/sb/cursor.png"), auto;
+}
+/* Título */
+.site-box > a > p {
+    top: 10px;
+    color: black;
+    cursor: url("https:///sezeik.nekoweb.org/sb/cursor.png"), auto;
+}
+.site-box > a > span {
+    font-family: Verdana;
+    color: black;
+    bottom: 13.7em;
+    right: 3.76em;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: url("https:///sezeik.nekoweb.org/sb/cursor.png"), auto;
+}
+.site-box .screenshot, .site-box .sitefeature {
+    opacity: 0;
+    cursor: url("https:///sezeik.nekoweb.org/sb/cursor.png"), auto;
+}

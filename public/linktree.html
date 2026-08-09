@@ -1,0 +1,60 @@
+<!--# layout file="./layout/layout.html" -->
+ 
+
+<!-- Esta sección es para modificar el título de la PÁGINA ACTUAL. Si deseas cambiar el nombre de la página entera
+    Dirígete a layout/layout.html. -->
+<!--# block name="title" -->Mis redes<!--# endblock --> <!-- Título de la PÁGINA ACTUAL-->
+
+<!--# block name="content" -->
+
+<script src="scripts/pages/linktree-main.js" defer></script>
+<!-- primer y último script al principio de una página sin insertar en el local_scripts. 🥀 -->
+
+<div class="classicWindow">
+    <div class="howeverThatBarNames">
+        <label>
+            <span data-i18n-key="linktree.window.links">Links y Sociales</span>
+        </label>
+        <div class="upperButtons">
+            <button>_ </button>
+            <button>□</button>
+            <button>×</button>
+        </div>
+    </div>
+    <div class="windowInside">
+        <div class="social_buttons" style="display: flex; flex-flow: row wrap; gap: 5px; justify-content: space-evenly;">
+            <button class="socialButton" onclick="openWindow('Discord')"><img src="../../../../../../../media/icons/98/Discord.png" width="32px" height="32px">Discord</button>
+            <button class="socialButton" onclick="openWindow('Roblox')"><img src="../../../../../../../media/icons/98/Roblox.png" width="32px" height="32px">Roblox</button>
+            <button class="socialButton" onclick="openWindow('Twitter')"><img src="../../../../../../../media/icons/98/Twitter.png" width="32px" height="32px">Twitter</button>
+            <button class="socialButton" onclick="openWindow('Bluesky')"><img src="../../../../../../../media/icons/98/Bluesky.png" width="32px" height="32px">Bluesky</button>
+            <button class="socialButton" onclick="openWindow('Steam')"><img src="../../../../../../../media/icons/98/Steam.png" width="32px" height="32px">Steam</button>
+            <button class="socialButton" onclick="openWindow('Xbox')"><img src="../../../../../../../media/icons/98/Xbox.png" width="32px" height="32px">Xbox</button>
+            <button class="socialButton" onclick="openWindow('PayPal')"><img src="../../../../../../../media/icons/98/PayPal.png" width="32px" height="32px">PayPal</button>
+            <button class="socialButton" onclick="openWindow('YouTube')"><img src="../../../../../../../media/icons/98/YouTube.png" width="32px" height="32px">YouTube</button>
+            <button class="socialButton" onclick="openWindow('Github')"><img src="../../../../../../../media/icons/98/Github.png" width="32px" height="32px">GitHub</button>
+            <button class="socialButton" onclick="openWindow('Playlist')"><img src="../../../../../../../media/icons/98/Playlist.png" width="32px" height="32px">Playlist</button>
+        </div>
+    </div>
+    
+</div>
+
+<div id="redZone" style="position: fixed; width: 100%;
+  height: 175%;
+  right: 0;
+  top: 0;
+  z-index: 4;
+  display: none;">
+    
+</div>
+
+
+<!--# endblock -->
+
+<!--# block name="local_scripts" -->
+<!--
+    Esta sección es para incluir Scripts que se ejecutarán en la página actual (Galerias, reproductores, juegos).  
+    
+    De no ser necesarios scripts, dejar en blanco.
+-->
+<script src="scripts/pages/linktree-local.js" defer></script>
+<!--# endblock -->

@@ -1,0 +1,415 @@
+/* Fuentes custom. */
+@font-face{
+    font-family: "LDF Comic Sans";
+    src: url(../../../../../../../media/fonts/ldf.woff);
+}
+
+@font-face{
+    font-family: "Console-Multiplat";
+    src: url(../../../../../../../media/fonts/consola.woff);
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "LDF Comic Sans","ldf","Comic Sans MS";
+    
+    display: flex;
+    flex-flow: column;
+    background: #bf96e0;
+    background: url("../../../../../../../thing.png"),
+    linear-gradient(0deg,rgba(191, 150, 224, 1) 30%, rgba(172, 240, 250, 1) 100%);
+}
+
+body * {
+    cursor: url("../../../../../../../media/cursor.png"), pointer;
+}
+
+/* La pequeña ventanita arriba al costado que tiene el logo. */
+#fuckass_logo{
+    position: static;
+    display: flex;
+    flex-flow: row;
+    padding: 2px;
+    background: #C0C0C0;
+    
+    box-shadow:
+    -1px -1px 0 1px #C0C0C0,
+    0 0 0 2px black;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+    
+    width: 220px;
+}
+
+.fuckass_logo{
+    position: relative;
+    top: 4px;
+    
+    padding: 5px;
+    
+    font-family: "Console-Multiplat", Consolas;
+    font-size: 16px;
+    font-weight: bold;
+    font-kerning: none;
+    letter-spacing: -0.1mm;
+    
+    width: 100%;
+}
+.fuckass_logo > label{
+    position: absolute;
+    top: 0.65rem;
+    left: 2.65rem;
+}
+
+/* Propiedades para el cuerpo de la página y las posiciones de cada elemento. */
+.container{
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "left_sidebar content right_sidebar";
+    grid-template-columns: 240px 700px 300px;
+    
+    min-height: 900px;
+}
+
+/* Clase genérica para todo elemento. */
+.classicWindow{
+    margin: 5px;
+    background: #C0C0C0;
+    
+    box-shadow:
+    -1px -1px 0 1px #C0C0C0,
+    0 0 0 2px black;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+    
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/* La barra de título. */
+.howeverThatBarNames{
+    font-family: "Console-Multiplat", Consolas;
+    font-size: 16px;
+    font-weight: bold;
+    font-kerning: none;
+    letter-spacing: -0.1mm;
+    display: flex;
+    flex-flow: row;
+    
+    justify-content: space-between;
+    padding: 2px;
+    margin-bottom: 0;
+    background: #F0CCD3;
+    background: linear-gradient(240deg, rgba(240, 204, 211, 1) 0%, rgba(201, 40, 40, 1) 100%) no-repeat;
+}
+
+.howeverThatBarNames > label{
+    position: relative;
+    left: 0.25rem; /* Dios sabrá cómo queda en cada dispositivo. Esto se ve bien en Firefox.*/
+    
+    color: #FFF;
+}
+
+button{
+    font-family: "Console-Multiplat", Consolas;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #C0C0C0;
+    color: #000;
+    
+    border: solid white 2px;
+    border-bottom: solid black 2px;
+    border-right: solid black 2px;
+    
+    padding: 7px;
+}
+
+.upperButtons > button{
+    width: 20px;
+    height: 20px;
+    margin-left: -1.8mm;
+    padding: 0;
+}
+button:hover{
+    background-color: #909090;
+}
+
+button:active{
+    background-color: #606060;
+}
+
+button:disabled {
+    background-color: #777;
+    color: #bbb;
+}
+
+.upperButtons > .noResizable{
+    color: rgba(0,0,0,0.35);
+}
+
+.upperButtons > .noResizable:hover{
+    background-color: #C0C0C0;
+}
+
+.upperButtons > .noResizable:active{
+    background-color: #C0C0C0;
+}
+
+.windowInside{
+    /* Cualquier cambio que hagas aquí va a tener consecuencias directas con el JSPaint, ten cuidado.
+    Si pretendes cambiar tamaños o márgenes, resta la cantidad en las propiedades del JSPaint. */
+    display: flex;
+    flex-flow: column wrap;
+    
+    padding: 10px;
+}
+
+.whiteWindow{
+    background: #FFF;
+}
+
+.imageLeftAside{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 3px;
+}
+
+.image_frame{
+    background: #C0C0C0;
+    border: solid #000 2px;
+    
+    border-bottom: solid white 2px;
+    border-right: solid white 2px;
+}
+
+#header{
+    margin: 0 auto;
+    grid-area: header;
+    
+    height: 200px;
+    width: 80%;
+    overflow: hidden;
+}
+
+#banner{
+    position: relative;
+    margin-left: -1.2mm;
+    
+    width: 1000px;
+    height: 180px;
+}
+
+.left_sidebar{
+    grid-area: left_sidebar;
+    display: flex;
+    
+    flex-flow: column;
+    column-gap: 10px;
+}
+
+#owner_info, #birthdayWindow{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 5px;
+    
+    text-align: center;
+}
+
+#pfp_container > img{
+    width: 96px;
+}
+
+#text_info{
+    position: relative;
+    bottom: 10px;
+}
+#text_info *{
+    margin-bottom: -2px;
+}
+
+.left_sidebar li{
+    font-size: 14px;
+    list-style: none;
+    margin-left: -25px;
+}
+
+.left_sidebar li a {
+    margin: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 2px;
+    
+    text-decoration: none;
+    color: #0000FF;
+}
+
+.left_sidebar li a:hover{
+    text-decoration: underline wavy;
+    color: #8000C0;
+}
+
+.left_sidebar li a span{
+    margin-top: 5px;
+}
+
+.left_sidebar li a img{
+    width: 24px;
+}
+
+#link_folder .windowInside {
+    max-height: 330px;
+    overflow-y: auto;
+}
+
+.follow_button{
+    margin: 0 auto;
+}
+
+.right_sidebar{
+    grid-area: right_sidebar;
+    display: flex;
+    
+    flex-flow: column;
+    gap: 15px;
+    
+    margin-top: 20px; /* Colocar más de 10px hace que las ventanas se sobrepongan al banner... */
+}
+
+.right_sidebar iframe{
+    position: relative;
+    width: 280px;
+    height: 220px;
+}
+
+#nekowebInfo, #birthdayCounter{
+    margin: 0 auto;
+    width: 200px;
+}
+
+#nekowebInfo span{
+    font-size: 16px;
+    color: #FF0000;
+}
+
+.page_content{
+    grid-area: content;
+    display: flex;
+    
+    flex-flow: column;
+    column-gap: 10px;
+}
+
+/* landing.html */
+
+.buttonFrame{
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    overflow: hidden;
+    gap: 3px;
+}
+
+#JSPaint{
+    margin: -10px;
+    
+    width: 683px;
+    height: 350px;
+}
+
+/* linktree.html */
+.social_buttons > button{
+    width: 100px;
+    height: 100px;
+    
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+.social_buttons > button > *{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* gallery.html */
+
+.galleryWindow{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.galleryMarquee{
+    
+    overflow: hidden;
+    color: #000;
+    background: #DDDDDD;
+    width: 550px;
+    
+    border: solid #333 2px;
+    border-bottom: solid #777 2px;
+    border-right: solid #777 2px;
+    
+    padding: 7px;
+}
+
+.pictureHolder{
+    
+    display: flex;
+    flex-flow: column wrap;
+    color: #3333AA;
+    text-decoration: none;
+    width: max-content;
+    
+    border: solid #3333AA 2px;
+    border-radius: 4px;
+    padding: 8px;
+    align-items: center;
+    min-height: 180px;
+}
+
+.thingyP{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+    
+    transition: transform 0.4s ease-out;
+    will-change: transform;
+    width: max-content;
+    
+}
+
+.pictureHolder > img,
+.pictureHolder > a > img{
+    border: solid #3333AA 2px;
+    border-radius: 4px;
+    width: 150px;
+    max-height: 230px;
+}
+
+.pictureNSFW {
+    filter: blur(12px);
+    transition: filter 0.3s ease;
+}
+
+.pictureNSFW:hover {
+    filter: blur(0px);
+}
+
+/* blog.html */
+
+.postButton{
+    text-align: left;
+    padding: 10px;
+    
+    font-size: 14px;
+}
