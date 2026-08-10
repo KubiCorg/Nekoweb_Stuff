@@ -13,13 +13,9 @@ function insertContent(socialMedia){
         case "Discord":
             isDoubleLink = true;
             row1.label = "Mi Usuario:";
-            row1.text = "sezeik";
+            row1.text = "icoyin";
             row1.isLink = false;
-            
-            row2.label = "Mi Servidor:";
-            row2.text = "https://discord.gg/J6b3cvxY9S";
-            row2.isLink = true;
-            
+                      
             break;
             
         case "Roblox":
@@ -33,31 +29,11 @@ function insertContent(socialMedia){
             row2.isLink = true;
             
             break;
-            
-        case "Twitter":
-            isDoubleLink = true;
-            row1.label = "Mi @ SFW de Twitter:";
-            row1.text = "SezeikSFW";
-            row1.isLink = false;
-            
-            row2.label = "Enlace directo:";
-            row2.text = "https://x.com/SezeikSFW";
-            row2.isLink = true;
-            
-            row3.label = "Mi @ NSFW de Twitter:";
-            row3.text = "SezeikAD";
-            row3.isLink = false;
-            
-            row4.label = "Enlace directo:";
-            row4.text = "https://x.com/SezeikAD";
-            row4.isLink = true;
-            
-            break;
-            
+             
         case "Bluesky":
             isDoubleLink = false;
             row1.label = "Mi Bluesky:";
-            row1.text = "https://bsky.app/profile/sezeik.bsky.social";
+            row1.text = "https://bsky.app/profile/kubicorg.bsky.social";
             row1.isLink = true;
             
             break;
@@ -65,7 +41,7 @@ function insertContent(socialMedia){
         case "Steam":
             isDoubleLink = false;
             row1.label = "Mi Perfil de Steam:";
-            row1.text = "https://steamcommunity.com/id/Sezeik";
+            row1.text = "https://steamcommunity.com/id/";
             row1.isLink = true;
             
             break;
@@ -81,7 +57,7 @@ function insertContent(socialMedia){
         case "YouTube":
             isDoubleLink = false;
             row1.label = "Mi Canal de YouTube:";
-            row1.text = "https://www.youtube.com/@Sezeik";
+            row1.text = "https://www.youtube.com/@KubiCorg";
             row1.isLink = true;
             
             break;
@@ -97,7 +73,7 @@ function insertContent(socialMedia){
         case "Github":
             isDoubleLink = false;
             row1.label = "Mi Github:";
-            row1.text = "https://github.com/SeZeiK";
+            row1.text = "https://github.com/KubiCorg";
             row1.isLink = true;
             
             break;
